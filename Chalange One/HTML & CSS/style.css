@@ -1,0 +1,1320 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 90px;
+    background-color: #002261;
+    align-items: center;
+    color: white
+}
+.header .left-header{
+    display: flex;
+    gap: 20px;
+    font-size: 1.3em;
+}
+.header .right-header{
+    font-size: 1.1em;
+    align-items: center;
+    align-content: center;
+}
+.Contact-icons{
+    display: flex;
+}
+.right-header i{
+    background: linear-gradient(rgba(255,255,255,0.4));
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 90px;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    gap: 60px;
+    font-size: 1.5em;
+    font-weight: 800;
+    list-style: none;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.search-bar i{
+    font-size: 1.4em;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    align-content: center;
+    
+}
+.menu #bars{
+    display: none;
+}
+.search-bar button{
+    font-size: 1.4em;
+    font-weight: 600;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    margin-left: 60px;
+    border-radius: 30px;
+    background-color: #2EA6F7;
+    cursor: pointer;
+}
+.search-bar button:hover{
+    background-color: #002261;
+}
+.hero-section{
+    background:linear-gradient(to right,rgba(255,255,255,0.85),rgba(255,255,255,0.3)),url(../img/hero\ img.jpg);
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.txt{
+    width: 60%;
+    padding-top: 10%;
+    padding-left: 100px;
+}
+.txt h1{
+    font-size: 6em;
+}
+.txt h1 span{
+    color: #2EA6F7;
+}
+.txt p{
+    padding-top: 20px;
+    font-size: 2em;
+    padding-right: 100px;
+    color: grey;
+}
+.hero-section .rec-icon{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 90px;
+   
+}
+.rec-icon .text{
+    padding-left: 10px;
+    margin-top: 15px;
+
+}
+.text h1{
+    font-size: 2.5em;
+    color: #002261;
+}
+.text p{
+    font-size: 2em;
+    color: #002261;
+}
+.btn{
+    margin-left: 120px;
+   margin-top: 20px;
+
+}
+.btn button{
+    font-size: 1.4em;
+    font-weight: 600;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    
+    border-radius: 30px;
+    background-color: #2EA6F7;
+    cursor: pointer;
+    border: none;
+}
+#btn{
+    background-color: #002261;
+    margin-left: 10px;
+}
+.btn button:hover{
+    background-color: #002261;
+}
+#btn:hover{
+    background-color: #2EA6F7;
+}
+.hero-bottom{
+    width: 100%;
+    height: 200px;
+    margin-top: 4%;
+    background-color: #002261;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    align-items: center;
+    
+
+}
+.hero-bottom .title-bottom{
+    display: flex;
+    gap: 50px;
+    color: white;
+    align-items: center
+    
+   
+}
+.titletext h1{
+
+}
+.title-bottom h1{
+    font-size: 2em;
+    margin-bottom: 3%;
+}
+.title-bottom p{
+    font-size: 1.4em;
+    color: lightslategray;
+}
+.hero-bottom img{
+    width: ;
+    height: 200px;
+    /* margin-left: 8%; */
+    
+}
+#bookbtn button{
+    background-color: #ffffff;
+    color: #002261;
+
+}
+#bookbtn button:hover{
+    background-color: #2EA6F7;
+    color: #ffffff;
+}
+
+.services{
+    background-color: #E8EDF0;
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+}
+.services .top-setrvices{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    gap: 80px;
+}
+.top-setrvices .top-left{
+    width: 35%;
+}
+.top-left h2{
+    color: #2EA6F7;
+    font-size: 1.4em;
+    font-weight: bolder;
+    padding-bottom: 50px;
+}
+.top-left h1{
+    font-size: 3.6em;
+}
+.top-setrvices .top-right{
+    width: 35%;
+    
+}
+.top-right p{
+    font-size: 1.1em;
+    color: grey;
+    padding-top: 15%;
+    padding-left: 60px;
+    
+}
+.boxes-services{
+    display: grid;
+    grid-template-columns: 290px 290px 290px 290px;
+    grid-template-rows: 250px 250px;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 5%;
+}
+.boxes-services .box{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+.boxes-services .box img{
+    background-color: #002261;
+    padding: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+.boxes-services .box h1{
+    font-size: 1.5em;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.boxes-services .box p{
+    margin-left: 10%;
+    padding-right: 30px;
+}
+.services h3{
+    text-align: center;
+    padding: 0 30% 0 30%;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.services h3 span{
+    color: #2EA6F7;
+}
+.medical-care{
+    background: url(../img/carebg.jpg);
+    width: 100%;
+    height: 600px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+.medical-left{
+    width: 35%;
+   margin-left: 5%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.medical-left .watchbg{
+    background-color: #ffffff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.medical-right{
+    width: 35%;
+    padding-top: 10%;
+}
+.medical-right h2{
+    color: #2EA6F7;
+    font-size: 1.4em;
+    padding-bottom: 20px;
+}
+.medical-right h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.medical-right p{
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+.medical-right button{
+    font-size: 1.7em;
+    font-weight: bolder;
+    padding: 20px 30px;
+    border-radius: 50px;
+    border: none;
+}
+
+.blog{
+    width: 100%;
+    margin-top: 10%;
+}
+.blog .title-blog{
+    text-align: center;
+}
+.title-blog h1{
+    font-size: 1.7em;
+    color: #2EA6F7;
+    padding: 20px 30px;
+}
+.title-blog h2{
+    font-size: 3em;
+    padding: 20px 30px;
+}
+.blog .blog-box{
+    display: grid;
+    justify-content: center;
+    gap: 40px;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 250px;
+    height: 700px;
+}
+
+.blog-box .box{
+    /* background-color: green; */
+    position: relative;
+}
+.blog-box .box img{
+    width: 95%;
+    margin-left: 2.5%;
+}
+.text-box{
+    border: 1px solid rgb(206, 206, 206);
+    border-top: none;
+    height: 300px;
+    
+}
+.text-box h2{
+    background-color: #002261;
+    width: 70px;
+    height: 80px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-size: 1.4em;
+    font-weight: 400;
+    color: #ffffff;
+    position: absolute;
+    border: 5px solid #ffffff;
+    bottom: -45px;
+    right: 30px;
+}
+.text-box .user{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    padding: 80px 20px 10px 20px;
+    align-content: center;
+    font-size: 1.2em;
+    color: grey;
+
+}
+.text-box h1{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 1.9em;
+}
+.text-box h3{
+    font-size: 1.2em;
+    font-weight: 100;
+    padding: 20px 40px 5px 20px;
+    color: gray;
+
+}
+.text-box i{
+    align-items: center;
+    align-content: center;
+}
+.text-box a{
+    text-decoration: none;
+    color: gray;
+    padding: 5px 20px 30px 20px;
+    font-size: 1.3em;
+    font-weight: 600;
+
+
+}
+footer{
+    background: url(../img/footer.jpg);
+    width: 100%;
+    height: 600px;
+    margin-top: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding: 20px 60px;
+}
+footer .conatct{
+    width: 25%;
+    height: 667px;
+    background-color: #2EA6F7;
+    /* background-color: #ffffff; */
+    margin-top: -3%;
+    margin-left: ;
+    border-radius: 8px 8px 0 0px;
+}
+footer .conatct .logofooter h1{
+    margin-top: 25%;
+    text-align: center;
+    font-size: 5em;
+    padding-bottom: 30px;
+}
+footer .conatct .info{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-content: center;
+    align-items: center;
+}
+.conatct .info i{
+    font-size: 1.4em;
+}
+.conatct .info p{
+    font-size: 1.3em;
+}
+.conatct .footer-icons{
+    margin-left: 40px;
+    padding-top: 90px;
+    font-size: 2em;
+    
+}
+.footer-icons i{
+    background: linear-gradient(rgba(255,255,255,0.6));
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    align-items: center;
+    cursor: pointer;
+    align-content: center;
+}
+.footer-icons i:hover{
+    background: #002261;
+
+}
+footer .footer-services{
+    margin-top: 5%;
+    /* background-color: #E8EDF0; */
+    margin-left: -8%;
+
+}
+#fservice{
+
+}
+.footer-services h1{
+    font-size: 2em;
+    padding: 20px 0px;
+}
+.footer-services p{
+    font-size: 1.6em;
+    padding: 20px 0px;
+}
+#Quick{
+    margin-left: 3%;
+}
+
+footer .posts{
+    margin-top: 5%;
+
+}
+.posts h1{
+    font-size: 2em;
+    padding: 20px 0px;
+}
+.posts .post{
+    width: 70%;
+    /* background-color:#2EA6F7 ; */
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+.posts .post h4{
+    font-size: 1em;
+    font-weight: 100;
+    color: rgb(194, 194, 194);
+    padding: 20px 0px;
+}
+.post a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px 0px;
+    font-size: 1.5em;
+    font-weight: 600;
+   
+}
+
+
+/* APPOINTMENT PAGE */
+.head-bg{
+    background: linear-gradient(to right, rgba(255,255,255,0.9),rgba(255,244,255,0.3)), url(../img/appointment.jpg);
+    width: 100%;
+    height: 77vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.head-bg h1{
+    font-size: 7em;
+    padding-top: 15%;
+    padding-left: 10%;
+}
+
+form{
+    width: 90%;
+    height: 100vh;
+    background-color: #E8EDF0;
+    border-radius: 10px;
+    margin: 10% 5%;
+    text-align: center;
+
+}
+form h2{
+    padding-top: 10%;
+    font-size: 1.6em;
+    color: #2EA6F7;
+}
+form h1{
+    font-size: 3em;
+    padding: 40px 30px;
+}
+#txt{
+    /* background-color: #002261; */
+    width: 40%;
+    height: 40px;
+    font-size: 1.4em;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    gap: 90px;
+    padding: 0 20px;
+    
+}
+form #add{
+    width: 85%;
+    height: 40px;
+    font-size: 1.4em;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+
+form select{
+    width: 88%;
+    height: 40px;
+    font-size: 1.4em;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    padding: 0 20px;
+}
+
+form button{
+    width: 88%;
+    height:40px;
+    background-color: #002261;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 0px 20px;
+    align-items: center;
+    align-content: center;
+    margin-left: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #2EA6F7;
+    border: none;
+}
+.all{
+    display: flex;
+}
+
+
+
+
+
+
+/* SMALL MOBILES */
+
+@media (max-width: 390px){
+    .header{
+        display: none;
+        flex-direction: column;
+    }
+    .menu{
+        padding: 20px 20px;
+    }
+    .menu img{
+        width: 200px;
+    }
+    .menu ul{
+        display: none;
+    }
+    .search-bar{
+        display: none;
+    }
+    .menu img{
+        padding: 0;
+    }
+    .Contact-icons{
+        display: block;
+        padding: 10px;
+    }
+    .search-bar i{
+        display: none;
+    }
+    .menu #bars{
+        display: block;
+        font-size: 2em;
+    }
+    .hero-section{
+        width: 100%;
+        height: 190vh;
+        /* margin-bottom: 300px; */
+        /* background-color: #002261; */
+    }
+    .txt{
+        padding: 10px 20px;
+        margin: 0;
+        width: 95%;
+        height: 300px;
+        margin-bottom: 35%;
+    
+    }
+    .txt h1{
+        /* padding: 20px 30px; */
+        font-size: 3.8em;
+    }
+    .txt p{
+        /* padding: 10px 20px; */
+        font-size: 1.6em;
+        /* background-color: #002261; */
+        width: 100%;
+        
+    }
+    .hero-section .rec-icon{
+        padding: 0;
+        margin-bottom: 15%;
+
+    
+    }
+    .btns{
+        display: flex;
+        gap: 20px;
+    }
+    .btns{
+        margin-bottom: 90px;
+        display: block;
+    }
+    .btn{
+        padding: 0;
+        margin-left: 30px;
+        
+    }
+    .btn button{ font-size: 1.4em;
+    font-weight: 600;
+    /* margin-bottom: 10px; */
+    color: white;
+    /* padding: 15px 20px; */
+    border: none;
+    margin-left: 10px;
+    width: 250px;
+    
+    border-radius: 30px;
+    background-color: #2EA6F7;
+    cursor: pointer;
+    border: none;
+    }
+    .hero-bottom{
+        display: block;
+        width: 100%;
+        height: 550px;
+    }
+    .hero-bottom .title-bottom{
+        display: block;
+        padding: 50px 0 10px 0;
+        align-items: center;
+        text-align: center;
+        /* background-color: #E8EDF0; */
+
+    }
+    .hero-bottom img{
+        margin-bottom: 40px 0;
+    }
+    .title-bottom h1{
+        padding-top: 20px;
+        font-size: 3em;
+    }
+    .titletext h1{
+        font-size: 2em;
+        /* background-color: #E8EDF0; */
+    }
+    .title-bottom p{
+        padding: 20px 10px;
+        font-size: 1.4em;
+    }
+    #bookbtn{
+        margin-left: 20%;
+        margin-bottom: 5%;
+        background-color: ;
+    }
+    .services{
+        padding: 0;
+        margin-top: 20%;
+    }
+    .services .top-setrvices{
+        display: block;
+        padding: 0;
+    }
+    .top-setrvices .top-left{
+        width: 100%;
+    }
+    .top-left h2{
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+    .top-left h1{
+        padding-left: 20px;
+    }
+    .top-setrvices .top-right{
+        width: 100%;
+
+    }
+    .top-right p{
+        font-size: 1.2em;
+        
+        padding: 40px 20px 20px 20px;
+    }
+    .boxes-services{
+        display: grid;
+        grid-template-columns: 340px;
+        margin-top: 10%;
+    }
+    .boxes-services .box{
+        padding: 0px 0px 40px 0px;
+    }
+    .services h3{
+        padding: 0px 30px 20px 30px;
+        font-size: 1.4em;
+        text-align: left;
+        line-height: 40px;
+    }
+    .medical-care{
+        display: block;
+        width: 100%;
+        height: 80vh;
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+    .medical-left{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .medical-right{
+        width: 100%;
+    }
+    .blog{
+        width: 100%;
+        height: 2000px;
+    }
+    .blog .blog-box{
+        display: grid;
+        grid-template-columns: 400px;
+        grid-template-rows: 600px;
+        margin-bottom: 30px;
+
+    }
+    footer{
+        display: block;
+        width: 100%;
+        height: 2100px;
+        padding: 0;
+    }
+    footer .conatct{
+        width: 90%;
+        margin-left: 5%;
+    }
+    footer .conatct .info{
+        width: ;
+        margin-left: 5%;
+    }
+    .text-box h2{
+        position: absolute;
+        right: 2;
+        top: 0;
+        display: none;
+    }
+    .footer-icons .footer-services{
+        display: block;
+        justify-content: start;
+    }
+    #fservice{
+        margin-left: 2%;
+        margin-top: 15%;
+    }
+    .posts{
+        margin-left: 2%;
+    }
+    .all{
+        display: block;
+        padding: 20px;
+    }
+  
+    
+
+}
+
+/* MIDDLE MOBILES */
+@media (min-width: 391px) and (max-width: 430px){
+    .header{
+        display: none;
+        flex-direction: column;
+    }
+    .menu{
+        padding: 20px 20px;
+    }
+    .menu img{
+        width: 200px;
+    }
+    .menu ul{
+        display: none;
+    }
+    .search-bar{
+        display: none;
+    }
+    .menu img{
+        padding: 0;
+    }
+    .Contact-icons{
+        display: block;
+        padding: 10px;
+    }
+    .search-bar i{
+        display: none;
+    }
+    .menu #bars{
+        display: block;
+        font-size: 2em;
+    }
+    .hero-section{
+        width: 100%;
+        height: 190vh;
+        /* margin-bottom: 300px; */
+        /* background-color: #002261; */
+    }
+    .txt{
+        padding: 10px 20px;
+        margin: 0;
+        width: 95%;
+        height: 300px;
+        margin-bottom: 35%;
+    
+    }
+    .txt h1{
+        /* padding: 20px 30px; */
+        font-size: 3.8em;
+    }
+    .txt p{
+        /* padding: 10px 20px; */
+        font-size: 1.6em;
+        /* background-color: #002261; */
+        width: 100%;
+        
+    }
+    .hero-section .rec-icon{
+        padding: 0;
+        margin-bottom: 15%;
+
+    
+    }
+    .btns{
+        display: flex;
+        gap: 20px;
+    }
+    .btns{
+        margin-bottom: 90px;
+        display: block;
+    }
+    .btn{
+        padding: 0;
+        margin-left: 30px;
+        
+    }
+    .btn button{ font-size: 1.4em;
+    font-weight: 600;
+    /* margin-bottom: 10px; */
+    color: white;
+    /* padding: 15px 20px; */
+    border: none;
+    margin-left: 10px;
+    width: 250px;
+    
+    border-radius: 30px;
+    background-color: #2EA6F7;
+    cursor: pointer;
+    border: none;
+    }
+    .hero-bottom{
+        display: block;
+        width: 100%;
+        height: 550px;
+    }
+    .hero-bottom .title-bottom{
+        display: block;
+        padding: 50px 0 10px 0;
+        align-items: center;
+        text-align: center;
+        /* background-color: #E8EDF0; */
+
+    }
+    .hero-bottom img{
+        margin-bottom: 40px 0;
+    }
+    .title-bottom h1{
+        padding-top: 20px;
+        font-size: 3em;
+    }
+    .titletext h1{
+        font-size: 2em;
+        /* background-color: #E8EDF0; */
+    }
+    .title-bottom p{
+        padding: 20px 10px;
+        font-size: 1.4em;
+    }
+    #bookbtn{
+        margin-left: 20%;
+        margin-bottom: 5%;
+        background-color: ;
+    }
+    .services{
+        padding: 0;
+        margin-top: 20%;
+    }
+    .services .top-setrvices{
+        display: block;
+        padding: 0;
+    }
+    .top-setrvices .top-left{
+        width: 100%;
+    }
+    .top-left h2{
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+    .top-left h1{
+        padding-left: 20px;
+    }
+    .top-setrvices .top-right{
+        width: 100%;
+
+    }
+    .top-right p{
+        font-size: 1.2em;
+        
+        padding: 40px 20px 20px 20px;
+    }
+    .boxes-services{
+        display: grid;
+        grid-template-columns: 440px;
+        margin-top: 10%;
+    }
+    .boxes-services .box{
+        padding: 0px 0px 40px 0px;
+    }
+    .services h3{
+        padding: 0px 30px 20px 30px;
+        font-size: 1.4em;
+        text-align: left;
+        line-height: 40px;
+    }
+    .medical-care{
+        display: block;
+        width: 100%;
+        height: 80vh;
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+    .medical-left{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .medical-right{
+        width: 100%;
+    }
+    .blog{
+        width: 100%;
+        height: 2000px;
+    }
+    .blog .blog-box{
+        display: grid;
+        grid-template-columns: 400px;
+        grid-template-rows: 600px;
+        margin-bottom: 30px;
+
+    }
+    footer{
+        display: block;
+        width: 100%;
+        height: 2000px;
+        padding: 0;
+    }
+    footer .conatct{
+        width: 90%;
+        margin-left: 5%;
+    }
+    footer .conatct .info{
+        width: ;
+        margin-left: 5%;
+    }
+    .text-box h2{
+        position: absolute;
+        right: 2;
+        top: 0;
+        display: none;
+    }
+    .footer-icons .footer-services{
+        display: block;
+        justify-content: start;
+    }
+    #fservice{
+        margin-left: 2%;
+        margin-top: 15%;
+    }
+    .posts{
+        margin-left: 2%;
+    }
+    .all{
+        display: block;
+    }
+  
+    
+
+}
+/* ipadmini */
+@media (min-width: 431px) and (max-width: 835px){
+    .header{
+        display: none;
+        flex-direction: column;
+    }
+    .menu{
+        padding: 20px 20px;
+    }
+    .menu img{
+        width: 200px;
+    }
+    .menu ul{
+        display: none;
+    }
+    .search-bar{
+        display: flex;
+    }
+    .menu img{
+        padding: 0;
+    }
+    .Contact-icons{
+        display: block;
+        padding: 10px;
+    }
+    .search-bar i{
+        display: block;
+    }
+    .menu #bars{
+        display: block;
+        font-size: 2em;
+    }
+    .hero-section{
+        background: url(../img/hero\ img.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 190vh;
+        /* margin-bottom: 300px; */
+        /* background-color: #002261; */
+    }
+    .txt{
+        padding: 10px 20px;
+        margin: 0;
+        width: 95%;
+        height: 300px;
+        margin-bottom: 35%;
+    
+    }
+    .txt h1{
+        /* padding: 20px 30px; */
+        font-size: 4.8em;
+        padding-top: 90px;
+    }
+    .txt p{
+        /* padding: 10px 20px; */
+        font-size: 1.6em;
+        /* background-color: #002261; */
+        width: 100%;
+        
+    }
+    .hero-section .rec-icon{
+        padding: 0;
+        margin-bottom: 15%;
+
+    
+    }
+    .btns{
+        display: flex;
+        gap: 20px;
+    }
+    .btns{
+        margin-bottom: 90px;
+        display: block;
+    }
+    .btn{
+        padding: 0;
+        margin-left: 30px;
+        
+    }
+    .btn button{ font-size: 1.4em;
+    font-weight: 600;
+    /* margin-bottom: 10px; */
+    color: white;
+    /* padding: 15px 20px; */
+    border: none;
+    margin-left: 10px;
+    width: 250px;
+    
+    border-radius: 30px;
+    background-color: #2EA6F7;
+    cursor: pointer;
+    border: none;
+    }
+    .hero-bottom{
+        display: block;
+        width: 100%;
+        height: 550px;
+    }
+    .hero-bottom .title-bottom{
+        display: block;
+        padding: 50px 0 10px 0;
+        align-items: center;
+        text-align: center;
+        /* background-color: #E8EDF0; */
+
+    }
+    .hero-bottom img{
+        margin-bottom: 40px 0;
+    }
+    .title-bottom h1{
+        padding-top: 20px;
+        font-size: 3em;
+    }
+    .titletext h1{
+        font-size: 2em;
+        /* background-color: #E8EDF0; */
+    }
+    .title-bottom p{
+        padding: 20px 10px;
+        font-size: 1.4em;
+    }
+    #bookbtn{
+        margin-left: 20%;
+        margin-bottom: 5%;
+        background-color: ;
+    }
+    .services{
+        padding: 0;
+        margin-top: 20%;
+    }
+    .services .top-setrvices{
+        display: block;
+        padding: 0;
+    }
+    .top-setrvices .top-left{
+        width: 100%;
+    }
+    .top-left h2{
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+    .top-left h1{
+        padding-left: 20px;
+    }
+    .top-setrvices .top-right{
+        width: 100%;
+
+    }
+    .top-right p{
+        font-size: 1.2em;
+        
+        padding: 40px 20px 20px 20px;
+    }
+    .boxes-services{
+        display: grid;
+        grid-template-columns: 340px 340px;
+        margin-top: 10%;
+    }
+    .boxes-services .box{
+        padding: 0px 0px 40px 0px;
+    }
+    .services h3{
+        padding: 0px 30px 20px 30px;
+        font-size: 1.4em;
+        text-align: left;
+        line-height: 40px;
+    }
+    .medical-care{
+        display: block;
+        width: 100%;
+        height: 80vh;
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+    .medical-left{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .medical-right{
+        width: 100%;
+        padding-left: 40px;
+        padding-bottom: 40px;
+    }
+    .blog{
+        width: 100%;
+        height: 1300px;
+    }
+    .blog .blog-box{
+        display: grid;
+        grid-template-columns: 400px 400px;
+        grid-template-rows: 600px;
+        margin-bottom: 30px;
+
+    }
+    footer{
+        display: block;
+        width: 100%;
+        height: 1300px;
+        padding: 0;
+    }
+    footer .conatct{
+        width: 90%;
+        margin-left: 5%;
+    }
+    footer .conatct .info{
+        width: ;
+        margin-left: 5%;
+    }
+    .text-box h2{
+        position: absolute;
+        right: 2;
+        top: 0;
+        display: none;
+    }
+    .footer-icons .footer-services{
+        display: flex;
+        justify-content: start;
+    }
+    #fservice{
+        margin-left: 2%;
+        margin-top: 15%;
+    }
+    .posts{
+        margin-left: 2%;
+    }
+    .all{
+        display: flex;
+        justify-content: center;
+        margin-left: 10%;
+    }
+  
+    
+
+}
+

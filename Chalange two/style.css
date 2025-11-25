@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    align-items: center;
+    align-content: center;
+}
+.header ul{
+    display: flex;
+    gap: 60px;
+    font-size: 1.5em;
+    list-style: none;
+}
+.header ul li a{
+    text-decoration: none;
+    color: #222222;
+}
+.header .cart-section{
+
+}
+.header i{
+    font-size: 1.5em;
+    align-items: center;
+    align-content: center;
+    padding: 0 20px;
+}
+.header select{
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.hero-section{
+    background: url(./IMG/hero\ bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-section h2{
+    
+    /* padding-left: 10%; */
+    padding-bottom: 20px;
+}
+.hero-section h1{
+    font-size: 4em;
+    font-weight: 600;
+}
+.hero-section .titel-hero{
+    width: 40%;
+    padding-top: 15%;
+    padding-left: 10%;
+}
+.titel-hero button{
+    font-size: 1.5em;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 40px;
+    background-color: #222222;
+    color: #ffff;
+    margin-top: 30px;
+
+}
+.titel-hero button:hover{
+    background-color: #FFB400;
+}
+.hero-icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+    background-color: #ffff;
+    padding: 20px 30px;
+    margin-left: 8%;
+}
+.hero-icons .icon{
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+   
+    width: 30%;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    gap: 60px;
+}
+.card .card-left{
+    width: 40%;
+}
+.card .card-right{
+    width: 40%;
+}
+.card img{
+    width: 100%;
+}
+.popular{
+    margin-top: 10%;
+    
+}
+.popular .title{
+    text-align: center;
+}
+.popular .title h1{
+    font-size: 3em;
+    padding: 20px 20px;
+}
+.popular .title p{
+    font-size: 1.4em;
+}
+.product-box{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 400px 400px;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 5%;
+}
+.product-box .box{
+    /* background-color: #222222; */
+    border: 1px solid #b0b0b0;
+
+}
+.product-box .box img{
+    width: 100%;
+    height: 350px;
+}
+.product-box .box h1{
+    margin-top: -10%;
+    text-align: center;
+    font-size: 1.4em;
+}
+.product-box .box h2{
+    text-align: center;
+    font-size: 1.5em;
+    color: #FFB400;
+}
+.product-box .box h2 span{
+    color: grey;
+    
+}
